@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/bdncr/harajoro.git"
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "react": "^19.2.6",
